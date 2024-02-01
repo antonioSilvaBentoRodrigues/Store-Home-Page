@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+    
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+
+}
+img{
+    object-fit: cover;
+}
+.logo{
+    text-align: center;
+    font-size: 33px;
+    padding: 0 80px;
+    border: none;
+}
+
+.links a{
+    font-size: 20px;
+    cursor:pointer;
+}
+
+.sign-in:hover,
+.links a:hover{
+    opacity: 90%;
+}
+
+
+.links a:not(:last-child){
+    margin-right: 25px;
+}
+
+.auth{
+    padding: 0 20px;
+}
+
+.sign-in{
+    padding: 0 40px;
+    border: none;
+    background: transparent;
+    font-size: 17px;
+    cursor:pointer;
+}
+
+.sign-up{
+    padding: 8px 40px;
+    background: transparent;
+    font-size:17px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.sign-up:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+.container{
+    margin: 10vh auto;
+    width: 70%;
+    height: 600px;
+    background:transparent;
+    display: flex;
+    justify-content: space-between;
+}
+.rigth-img img,
+.mid-img img,
+.left-img img{
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.container span{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.links-footer{
+    font-size: 16px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.separator hr{
+    width: 700px;
+    margin: auto auto;
+}
